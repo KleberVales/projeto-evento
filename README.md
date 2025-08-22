@@ -26,3 +26,12 @@ projeto-evento/
 ```
 
 ## 📖 Exemplo de saída
+
+```yaml
+Evento: Java Conference
+Organizador: Kleber
+Data: 2025-09-15
+Preço: R$150.0
+⏳ Faltam 25 dias para o evento.
+Preço com desconto: R$135.0
+```
