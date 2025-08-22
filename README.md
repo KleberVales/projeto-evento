@@ -9,3 +9,5 @@ Este projeto foi desenvolvido em Java 21 para demonstrar conceitos fundamentais 
 - ✅ Uso da Math API para cálculos de desconto
 - ✅ Uso da Date and Time API (java.time) para manipulação de datas
 - ✅ Estruturas de decisão (if/else) para validar status do evento
+
+## 🗂️ Estrutura de pastas
