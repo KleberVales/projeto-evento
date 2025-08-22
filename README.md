@@ -11,3 +11,16 @@ Este projeto foi desenvolvido em Java 21 para demonstrar conceitos fundamentais 
 - ✅ Estruturas de decisão (if/else) para validar status do evento
 
 ## 🗂️ Estrutura de pastas
+
+```css
+projeto-evento/
+ └── src/
+      └── main/
+           └── java/
+                └── br/
+                     └── com/
+                          └── kleber/
+                               ├── Main.java
+                               └── Evento.java
+
+```
