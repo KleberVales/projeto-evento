@@ -24,3 +24,5 @@ projeto-evento/
                                └── Evento.java
 
 ```
+
+## 📖 Exemplo de saída
