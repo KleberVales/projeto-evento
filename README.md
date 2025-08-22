@@ -1,1 +1,1 @@
-# template-java-spring
+# 📌 Projeto: Cadastro de Evento
