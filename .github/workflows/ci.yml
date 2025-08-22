@@ -1,0 +1,30 @@
+name: Java CI 
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # checkout do código
+      - uses: actions/checkout@v3
+
+      # instalar o JDK 21 (Temurin)
+      - name: Setup JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      # dar permissão de execução no gradlew
+      - name: Permissão para Gradle Wrapper
+        run: chmod +x gradlew
+
+      # compilar e rodar testes
+      - name: Build com Gradle
+        run: ./gradlew build
